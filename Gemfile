@@ -21,6 +21,10 @@ group :production do
   gem 'pg'
 end
 
+gem 'execjs'
+
+gem 'therubyracer'
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
