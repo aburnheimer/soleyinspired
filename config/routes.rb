@@ -1,4 +1,6 @@
 Soleyinspired::Application.routes.draw do
+  resources :attribute_classes
+
   get "home/index"
 
   # The priority is based upon order of creation:

@@ -1,0 +1,23 @@
+<h1>Listing attribute_classes</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @attribute_classes.each do |attribute_class| %>
+  <tr>
+    <td><%= attribute_class.name %></td>
+    <td><%= link_to 'Show', attribute_class %></td>
+    <td><%= link_to 'Edit', edit_attribute_class_path(attribute_class) %></td>
+    <td><%= link_to 'Destroy', attribute_class, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Attribute class', new_attribute_class_path %>
