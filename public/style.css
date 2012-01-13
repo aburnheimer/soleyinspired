@@ -1,0 +1,11 @@
+body {
+  background: #A7AA63
+ 
+}
+div.img_container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -267px;
+  margin-left: -400px;
+}
