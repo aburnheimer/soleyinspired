@@ -8,8 +8,7 @@ u {
 }
 
 body {
-  background-image: url('webbackground.gif')
-  background: #000000;
+  background-image: url('webbackground.gif');
   padding: 0;
   border: 0;
   outline: 0;
