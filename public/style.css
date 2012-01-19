@@ -1,11 +1,35 @@
+p {
+  margin-top: 1in;
+  text-align: center;
+}
+
+u {
+  color: blue;
+}
+
 body {
   background-image: url('webbackground.gif')
- 
+  background: #000000;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
-div.img_container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -267px;
-  margin-left: -400px;
+
+#page {
+  width: 980px;
+  margin: 0 auto 10px auto;
+}
+
+#left_menu {
+  width: 180px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#content {
+  width: 800px;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
