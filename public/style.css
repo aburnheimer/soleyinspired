@@ -16,6 +16,12 @@ img#bottom_menu_item {
   margin-top: 10px;
 }
 
+img#top_label {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 img#coming_soon {
   margin-left: auto;
   margin-right: auto;
@@ -24,11 +30,16 @@ img#coming_soon {
 }
 
 
+html {
+  min-height: 101%;
+}
+
 body {
   background-image: url('webbackground.gif');
   padding: 0;
   border: 0;
   outline: 0;
+  min-height: 101%;
 }
 
 #page {
