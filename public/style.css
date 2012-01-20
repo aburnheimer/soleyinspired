@@ -26,6 +26,18 @@ body {
   float: left;
 }
 
+img#thumb-port {
+  margin: 8px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+img#thumb-land {
+  margin: 8px;
+  padding: 0;
+  vertical-align: middle;
+}
+
 #content {
   width: 800px;
   margin: 0;
