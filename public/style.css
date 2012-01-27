@@ -36,10 +36,10 @@ body {
   min-height: 101%;
 }
 
-#img_cell {
+td#img_cell {
   float: left;
   display: block;
-  vertical-align: middle;
+  text-align: center;
 }
 
 p#img_title {
