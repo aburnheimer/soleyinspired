@@ -199,7 +199,7 @@ FORMML;
                     </td>
 					
 					<td>
-                        <a href="./site-res/pendants/Reversible coin pendant Brisith pound R 011.jpg"><img id="thumb-land" src="./site-res/pendants/tReversible coin pendant Brisith pound R 011.jpg"/></a>
+                        <a href="./site-res/pendants/Reversible coin pendant Brisith pound R 011.jpg"><img id="thumb-land" src="./site-res/pendants/t-Reversible coin pendant Brisith pound R 011.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
