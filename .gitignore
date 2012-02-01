@@ -16,3 +16,6 @@
 *.swp
 .DS_Store
 /*/.DS_Store
+
+# Ignore static-site specific images
+public/site-res
