@@ -197,6 +197,11 @@ FORMML;
                         <a href="./site-res/pendants/guam.jpg"><img id="thumb-land" src="./site-res/pendants/t-guam.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
+					
+					<td>
+                        <a href="./site-res/pendants/Reversible coin pendant Brisith pound R 011.jpg"><img id="thumb-land" src="./site-res/pendants/tReversible coin pendant Brisith pound R 011.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
 
                     <td>
                         <a href="./site-res/pendants/guana.jpg"><img id="thumb-land" src="./site-res/pendants/t-guana.jpg"/></a>
