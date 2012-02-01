@@ -23,6 +23,10 @@ img#coming_soon {
   margin-top: 200px;
 }
 
+p#art_detail {
+  width: 600px;
+  margin: 1em auto 1em auto;
+}
 
 html {
   min-height: 101%;
@@ -46,6 +50,43 @@ p#img_title {
   text-align: center;
   vertical-align: bottom;
   margin: 0 0 0 0;
+}
+
+
+h1#form_title {
+  text-align: center;
+}
+
+table#form_table {
+  margin: 0 auto 0 auto;
+  width: 100%;
+}
+
+table#info_table {
+  margin: 0 auto 0 auto;
+}
+
+td#info_value {
+  padding-left: 40px;
+}
+
+form {
+  width: 600px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+td#form_label{
+  text-align: right;
+  width: 120px;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
 }
 
 #page {
