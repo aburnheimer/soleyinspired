@@ -40,6 +40,8 @@ if (isset($_REQUEST['email']))
   $subject = "Quote Request for a " . $settingPref . " " . 
         $coinCountry . " coin from " . $fullName ;
   $message = <<<EMESSAGE
+-- Quote Request from www.soleyinspired.com --
+
 Full Name: $fullName
 
 Email Address: $email
@@ -59,7 +61,8 @@ Style Preference: $stylePref
 Special Requests: $specialRequ
 EMESSAGE;
 
-  mail("info@soleyinspired.com", $subject, $message, "From:" . $email);
+  mail("info@soleyinspired.com", $subject, $message, "From:" . $email .
+    "\r\n" . "CC:" . $email);
 
   echo "<p id='art_detail'>Thank you for your request.  We will " .
     "respond back with more information shortly.</p>";
@@ -177,7 +180,7 @@ FORMML;
                     </tr>
                 </table>
                 
-                <p id="art_detail">These are average prices and include a 20” chain in a
+                <p id="art_detail">These are average prices and include a 20" chain in a
                    coordinating finish.  Discounts and/or credits are given to
                    customers that provide their own coins or forgo the
                    chain.</p>
