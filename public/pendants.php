@@ -50,7 +50,7 @@ Phone #: $phone
 
 Coin Country of Origin: $coinCountry
 
-Coin Face Value in USD ($): $coinValu
+Coin Face Value: $coinValu
 
 Coin Acquisition: $coinAcqu
 
@@ -89,15 +89,15 @@ else
                         </tr>
 
                         <tr>
-                            <td id='form_label'><label>Coin Face Value in USD (&#36;):</label></td>
+                            <td id='form_label'><label>Coin Face Value:</label></td>
                             <td><input type='text' name='coinValu' /></td>
                             <td id='form_label'><label>Coin Acquisition:</label></td>
                             <td>
                                 <select name='coinAcqu'>
-                                    <option value='from collection'>Selected from Soley Inspired collection</option>
+                                    <option value='from collection'>From Soley Inspired collection</option>
                                     <option value='mailed-in'>Mailed in by the customer</option>
                                     <option value='delivered'>Delivered by the customer</option>
-                                    <option value='to acquire'>Acquired by Soley Inspired for a small fee</option>
+                                    <option value='to acquire'>Acquired for a small fee</option>
                                 </select>
                             </td>
                         </tr>
