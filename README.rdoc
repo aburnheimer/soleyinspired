@@ -5,4 +5,5 @@ Site source code for http://www.soleyinspired.com
 Showcasing handcrafted jewelry, beads, & decor that balances the rustic and
 industrial to create earthy elegant art.
 
-<!-- vim:set ai et sw=4 sts=4 ts=4 tw=72: -->
+--
+vim:set ai et sw=4 sts=4 ts=4 tw=72:
