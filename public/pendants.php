@@ -132,7 +132,7 @@ else
 //if "email" is not filled out, display the form
 {
   echo <<<FORMML
-                <form method='post' action='pendants.php'>
+                <form method='post' action='pendants.php#form_title'>
 
                     <table id='form_table'>
                         <tr>
