@@ -25,8 +25,9 @@
 // Taken from http://www.w3schools.com/php/php_mail.asp
 if (isset($_REQUEST['email']))
 //if "email" is filled out, send email
-  {
-  //send email
+{
+
+  // send email
   $fullName = $_REQUEST['fullName'] ;
   $email = $_REQUEST['email'] ;
   $phone = $_REQUEST['phone'] ;
@@ -35,11 +36,68 @@ if (isset($_REQUEST['email']))
   $coinAcqu = $_REQUEST['coinAcqu'] ;
   $settingPref = $_REQUEST['settingPref'] ;
   $stylePref = $_REQUEST['stylePref'] ;
-  $specialRequ = $_REQUEST['specialRequ'] ;
 
-  $subject = "Quote Request for a " . $settingPref . " " . 
-        $coinCountry . " coin from " . $fullName ;
-  $message = <<<EMESSAGE
+  // Validation code taken from
+  // http://www.damonkohler.com/2008/12/email-injection.html 
+  // Validations are to be performed on everything except the freeform
+  // text entry $specialRequ.
+  if (eregi("(\r|\n)", $fullName)) {
+    echo "<p id='art_detail'>Info. in the \"Name\" field is invalid. " .
+        "Please <a href=\"pendants.php#form_title\">click here</a> " .
+        "to try again.</p>";
+  }
+
+  elseif (eregi("(\r|\n)", $email)) {
+    echo "<p id='art_detail'>Info. in the \"Email Address\" field is " .
+        "invalid. Please <a href=\"pendants.php#form_title\">click " .
+        "here</a> to try again.</p>";
+  }
+
+  elseif (eregi("(\r|\n)", $phone)) {
+    echo "<p id='art_detail'>Info. in the \"Phone &#35;\" field is " .
+        "invalid. Please <a href=\"pendants.php#form_title\">click " .
+        "here</a> to try again.</p>";
+  }
+
+  elseif (eregi("(\r|\n)", $coinCountry)) {
+    echo "<p id='art_detail'>Info. in the \"Coin Country&hellip;\" " .
+        "field is invalid. Please <a " .
+        "href=\"pendants.php#form_title\">click here</a> to try " .
+        "again.</p>";
+  }
+
+  elseif (eregi("(\r|\n)", $coinValu)) {
+    echo "<p id='art_detail'>Info. in the \"Coin Face Value\" field " .
+        "is invalid. Please <a href=\"pendants.php#form_title\">" .
+        "click here</a> to try again.</p>";
+  }
+
+  elseif (eregi("(\r|\n)", $coinAcqu)) {
+    echo "<p id='art_detail'>Info. in the \"Coin Acquisition\" field " .
+        "is invalid. Please <a href=\"pendants.php#form_title\">" .
+        "click here</a> to try again.</p>";
+  }
+
+  elseif (eregi("(\r|\n)", $settingPref)) {
+    echo "<p id='art_detail'>Info. in the \"Setting Preference\" " .
+        "field is invalid. Please <a " .
+        "href=\"pendants.php#form_title\">click here</a> to try " .
+        "again.</p>";
+  }
+
+  elseif (eregi("(\r|\n)", $stylePref)) {
+    echo "<p id='art_detail'>Info. in the \"Style Preference\" " .
+        "field is invalid. Please <a " .
+        "href=\"pendants.php#form_title\">click here</a> to try " .
+        "again.</p>";
+  }
+
+  else {
+    $specialRequ = $_REQUEST['specialRequ'] ;
+
+    $subject = "Quote Request for a " . $settingPref . " " . 
+          $coinCountry . " coin from " . $fullName ;
+    $message = <<<EMESSAGE
 -- Quote Request from www.soleyinspired.com --
 
 Full Name: $fullName
@@ -61,15 +119,16 @@ Style Preference: $stylePref
 Special Requests: $specialRequ
 EMESSAGE;
 
-  mail("info@soleyinspired.com", $subject, $message, "From:" . $email .
-    "\r\n" . "CC:" . $email);
+    mail("aburnheimer@gmail.com", $subject, $message, "From:" . $email .
+      "\r\n" . "CC:" . $email);
 
-  echo "<p id='art_detail'>Thank you for your request.  We will " .
-    "respond back with more information shortly.</p>";
+    echo "<p id='art_detail'>Thank you for your request.  We will " .
+      "respond back with more information shortly.</p>";
   }
+}
 else
 //if "email" is not filled out, display the form
-  {
+{
   echo <<<FORMML
                 <form method='post' action='pendants.php'>
 
@@ -149,7 +208,7 @@ else
                     </table>
                 </form>
 FORMML;
-  }
+}
 ?>
 
                 <h1 id="form_title">Pricing&hellip;</h1>
