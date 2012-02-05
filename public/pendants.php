@@ -119,7 +119,7 @@ Style Preference: $stylePref
 Special Requests: $specialRequ
 EMESSAGE;
 
-    mail("aburnheimer@gmail.com", $subject, $message, "From:" . $email .
+    mail("info@soleyinspired.com", $subject, $message, "From:" . $email .
       "\r\n" . "CC:" . $email);
 
     echo "<p id='art_detail'>Thank you for your request.  We will " .
