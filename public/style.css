@@ -30,6 +30,7 @@ img#coming_soon {
 p#art_detail {
   width: 600px;
   margin: 1em auto 1em auto;
+  text-align: left;
 }
 
 html {
@@ -42,6 +43,7 @@ body {
   border: 0;
   outline: 0;
   min-height: 101%;
+  text-align: center;
 }
 
 td#img_cell {
@@ -99,7 +101,7 @@ textarea {
 }
 
 #left_menu {
-  width: 180px;
+  width: 178px;
   margin: 0;
   padding: 0;
   float: left;
