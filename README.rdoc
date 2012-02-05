@@ -1,4 +1,4 @@
-# Soleyinspired Website
+== Soleyinspired Website
 
 Site source code for http://www.soleyinspired.com
 
