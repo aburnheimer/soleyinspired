@@ -123,9 +123,9 @@ EMESSAGE;
       "\r\n" . "CC:" . $email);
 
     echo "<p id='art_detail'>Thank you for your request.  We will " .
-      "respond back with more information shortly. Please <a " .
-        "href=\"pendants.php#form_title\">click here</a> to submit " .
-        "another request.</p>";
+        "respond back with more information shortly. Please <a " .
+        "href=\"#form_title\" onClick=\"window.location.reload(); " .
+        "return false;\">click here</a> to submit another request.</p>";
   }
 }
 else
