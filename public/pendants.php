@@ -114,7 +114,7 @@ if (isset($_REQUEST['email'])){
   else {
     $specialRequ = $_REQUEST['specialRequ'] ;
 
-    if ($fullName == "")) {
+    if ($fullName == "") {
       $fullName = "(unidentified sender)";
     }
 
