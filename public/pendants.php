@@ -62,7 +62,7 @@ if (isset($_REQUEST['email'])){
   elseif ( ! (eregi("[01]?[- .]?\(?[2-9][0-9]{2}\)?[- .]?[0-9]{3}[- .]?[0-9]{4}", $phone) ||
       $phone == "") ) {
     echo "<p id='art_detail'>Info. in the \"Phone &#35;\" field is " .
-        "invalid, it should be entered similar to \"555-876-5309\". " .
+        "invalid, it should be entered similar to \"555-867-5309\". " .
         "Please <a href=\"pendants.php#form_title\" " .
         "onClick=\"window.location.reload(); return false;\">click " .
         "here</a> to try again.</p>";
