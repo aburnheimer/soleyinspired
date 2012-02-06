@@ -114,6 +114,10 @@ if (isset($_REQUEST['email'])){
   else {
     $specialRequ = $_REQUEST['specialRequ'] ;
 
+    if ($fullName == "")) {
+      $fullName = "(unidentified sender)";
+    }
+
     $subject = "Quote Request for a " . $settingPref . " " . 
           $coinCountry . " coin from " . $fullName ;
     $message = <<<EMESSAGE
