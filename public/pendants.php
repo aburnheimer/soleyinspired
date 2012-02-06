@@ -22,10 +22,10 @@
 
                 <h1 id='form_title'>Request a Quote&hellip;</h1>
 <?php
+
 // Taken from http://www.w3schools.com/php/php_mail.asp
-if (isset($_REQUEST['email']))
-//if "email" is filled out, send email
-{
+if (isset($_REQUEST['email'])){
+//if "email" is filled out or a blank string, send email
 
   // send email
   $fullName = $_REQUEST['fullName'] ;
@@ -48,19 +48,32 @@ if (isset($_REQUEST['email']))
         "to try again.</p>";
   }
 
-  elseif ( (eregi("(\r|\n)", $email)) || $email == "" ) {
+  // email regex taken from http://www.regular-expressions.info/regexbuddy/email.html
+  elseif ( ! (eregi("[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}", $email) ||
+      $email == "") ) {
     echo "<p id='art_detail'>Info. in the \"Email Address\" field is " .
-        "invalid or blank. Please <a href=" .
-        "\"pendants.php#form_title\" onClick=\"" .
-        "window.location.reload(); return false;\">click here</a> " .
-        "to try again.</p>";
-  }
-
-  elseif (eregi("(\r|\n)", $phone)) {
-    echo "<p id='art_detail'>Info. in the \"Phone &#35;\" field is " .
-        "invalid. Please <a href=\"pendants.php#form_title\" " .
+        "invalid, it should be entered similar to \"email@example.com\"." .
+        " Please <a href=\"pendants.php#form_title\" " .
         "onClick=\"window.location.reload(); return false;\">click " .
         "here</a> to try again.</p>";
+  }
+
+  // phone regex taken http://regexlib.com/
+  elseif ( ! (eregi("[01]?[- .]?\(?[2-9][0-9]{2}\)?[- .]?[0-9]{3}[- .]?[0-9]{4}", $phone) ||
+      $phone == "") ) {
+    echo "<p id='art_detail'>Info. in the \"Phone &#35;\" field is " .
+        "invalid, it should be entered similar to \"555-876-5309\". " .
+        "Please <a href=\"pendants.php#form_title\" " .
+        "onClick=\"window.location.reload(); return false;\">click " .
+        "here</a> to try again.</p>";
+  }
+
+  elseif ( $phone == "" && $email == "") {
+    echo "<p id='art_detail'>Either an \"Email Address\" or \"Phone " .
+        "&#35;\" must be provided. Please <a href=" .
+        "\"pendants.php#form_title\" onClick=" .
+        "\"window.location.reload(); return false;\">click here</a> " .
+        "to try again.</p>";
   }
 
   elseif (eregi("(\r|\n)", $coinCountry)) {
@@ -134,9 +147,9 @@ EMESSAGE;
         "return false;\">click here</a> to submit another request.</p>";
   }
 }
-else
-//if "email" is not filled out, display the form
-{
+else {
+//if "email" is unset, display the form
+
   echo <<<FORMML
                 <form method='post' action='pendants.php#form_title'>
 
