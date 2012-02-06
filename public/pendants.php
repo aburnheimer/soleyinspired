@@ -11,7 +11,7 @@
         <div id="page">
             <div id="left_menu">
                 <a href="index.html"><img id="top_menu_item" src="website-boutton-home.png"></a>
-                <a href="pendants.html"><img id="menu_item" src="website-boutton-pendants.png"></a>
+                <a href="pendants.php"><img id="menu_item" src="website-boutton-pendants.png"></a>
                 <a href="earrings.html"><img id="menu_item" src="website-boutton-earrings.png"></a>
                 <a href="pottery.html"><img id="menu_item" src="website-boutton-pottery.png"></a>
                 <a href="http://soleyinspired.etsy.com"><img id="menu_item" src="website-boutton-store.png"></a>
@@ -43,53 +43,59 @@ if (isset($_REQUEST['email']))
   // text entry $specialRequ.
   if (eregi("(\r|\n)", $fullName)) {
     echo "<p id='art_detail'>Info. in the \"Name\" field is invalid. " .
-        "Please <a href=\"pendants.php#form_title\">click here</a> " .
+        "Please <a href=\"pendants.php#form_title\" onClick=" .
+        "\"window.location.reload(); return false;\">click here</a> " .
         "to try again.</p>";
   }
 
-  elseif (eregi("(\r|\n)", $email)) {
+  elseif ( (eregi("(\r|\n)", $email)) || $email == "" ) {
     echo "<p id='art_detail'>Info. in the \"Email Address\" field is " .
-        "invalid. Please <a href=\"pendants.php#form_title\">click " .
-        "here</a> to try again.</p>";
+        "invalid or blank. Please <a href=" .
+        "\"pendants.php#form_title\" onClick=\"" .
+        "window.location.reload(); return false;\">click here</a> " .
+        "to try again.</p>";
   }
 
   elseif (eregi("(\r|\n)", $phone)) {
     echo "<p id='art_detail'>Info. in the \"Phone &#35;\" field is " .
-        "invalid. Please <a href=\"pendants.php#form_title\">click " .
+        "invalid. Please <a href=\"pendants.php#form_title\" " .
+        "onClick=\"window.location.reload(); return false;\">click " .
         "here</a> to try again.</p>";
   }
 
   elseif (eregi("(\r|\n)", $coinCountry)) {
     echo "<p id='art_detail'>Info. in the \"Coin Country&hellip;\" " .
-        "field is invalid. Please <a " .
-        "href=\"pendants.php#form_title\">click here</a> to try " .
-        "again.</p>";
+        "field is invalid. Please <a href=\"pendants.php#form_title\"" .
+        " onClick=\"window.location.reload(); return false;\">click " .
+        "here</a> to try again.</p>";
   }
 
   elseif (eregi("(\r|\n)", $coinValu)) {
     echo "<p id='art_detail'>Info. in the \"Coin Face Value\" field " .
-        "is invalid. Please <a href=\"pendants.php#form_title\">" .
-        "click here</a> to try again.</p>";
+        "is invalid. Please <a href=\"pendants.php#form_title\" " .
+        "onClick=\"window.location.reload(); return false;\">click " .
+        "here</a> to try again.</p>";
   }
 
   elseif (eregi("(\r|\n)", $coinAcqu)) {
     echo "<p id='art_detail'>Info. in the \"Coin Acquisition\" field " .
-        "is invalid. Please <a href=\"pendants.php#form_title\">" .
-        "click here</a> to try again.</p>";
+        "is invalid. Please <a href=\"pendants.php#form_title\" " .
+        "onClick=\"window.location.reload(); return false;\">click " .
+        "here</a> to try again.</p>";
   }
 
   elseif (eregi("(\r|\n)", $settingPref)) {
     echo "<p id='art_detail'>Info. in the \"Setting Preference\" " .
-        "field is invalid. Please <a " .
-        "href=\"pendants.php#form_title\">click here</a> to try " .
-        "again.</p>";
+        "field is invalid. Please <a href=\"pendants.php#form_title\"" .
+        " onClick=\"window.location.reload(); return false;\">click " .
+        "here</a> to try again.</p>";
   }
 
   elseif (eregi("(\r|\n)", $stylePref)) {
     echo "<p id='art_detail'>Info. in the \"Style Preference\" " .
-        "field is invalid. Please <a " .
-        "href=\"pendants.php#form_title\">click here</a> to try " .
-        "again.</p>";
+        "field is invalid. Please <a href=\"pendants.php#form_title\"" .
+        " onClick=\"window.location.reload(); return false;\">click " .
+        "here</a> to try again.</p>";
   }
 
   else {
