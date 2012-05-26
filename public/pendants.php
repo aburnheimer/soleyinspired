@@ -1,11 +1,26 @@
 <html>
     <head>
         <title>Soley Inspired: Handcrafted Jewelry & Decor | Pendants</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script>
+            !window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+        </script>
+        <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+        <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
         <meta http-equiv="content-language" content="en-US" />
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta http-equiv="date" content="Thu, 19 Jan 2012 03:51:06 GMT" />
         <meta http-equiv="last-modified" content="Thu, 19 Jan 2012 04:03:06 GMT" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $("a[rel=pendants_group]").fancybox({
+                    'titleShow'     : false
+                });
+            });
+        </script>
     </head>
     <body>
         <div id="page">
@@ -269,163 +284,165 @@ FORMML;
                    customers that provide their own coins or forgo the
                    chain.</p>
 
-               <p id="art_detail">We Accept Cash, Check, Money Order, and Credit Cards (a
-                   Paypal bill will be generated upon request).</p>
-               
-               <p id="art_detail">Worldwide shipping available.  Delivery/Pickup available by
+                <p id="art_detail">We Accept Cash, Check, Money Order, and Credit Cards (a
+                    Paypal bill will be generated upon request).</p>
+
+                <p id="art_detail">Worldwide shipping available.  Delivery/Pickup available by
                    request.</p>
+
+                <p>See much more work and like us at <a href="http://www.facebook.com/soleyinspired">www.facebook.com/soleyinspired</a></p>
 
                 <table>
                 <tr>
                     <td>
-                        <a href="./site-res/pendants/guam.jpg"><img id="thumb-land" src="./site-res/pendants/t-guam.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/guam.jpg"><img id="thumb-land" src="./site-res/pendants/t-guam.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/guana.jpg"><img id="thumb-land" src="./site-res/pendants/t-guana.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/guana.jpg"><img id="thumb-land" src="./site-res/pendants/t-guana.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/hawaii.jpg"><img id="thumb-land" src="./site-res/pendants/t-hawaii.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/hawaii.jpg"><img id="thumb-land" src="./site-res/pendants/t-hawaii.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1395.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1395.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="./site-res/pendants/IMAG1398.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1398.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1409.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1409.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1413.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1413.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1593.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1593.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1395.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1395.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                         <a href="./site-res/pendants/IMAG1610.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1610.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1398.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1398.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1409.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1409.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1413.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1413.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1593.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1593.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                         <a rel="pendants_group" href="./site-res/pendants/IMAG1610.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1610.jpg"/></a>
                          <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1628.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1628.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1628.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1628.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1416.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1416.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1416.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1416.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1550.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1550.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="./site-res/pendants/IMAG1418.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1418.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1423.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1423.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1440.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1440.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1441.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1441.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1550.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1550.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        <a href="./site-res/pendants/IMAG1447.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1447.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1418.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1418.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1461.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1461.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1423.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1423.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1648.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1648.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1440.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1440.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1498.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1498.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="./site-res/pendants/IMAG1463.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1463.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1468.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1468.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1477.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1477.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a href="./site-res/pendants/IMAG1479.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1479.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1441.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1441.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        <a href="./site-res/pendants/IMAG1585.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1585.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1447.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1447.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1589.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1589.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1461.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1461.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1500.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1500.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1648.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1648.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
 
                     <td>
-                        <a href="./site-res/pendants/IMAG1501.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1501.jpg"/></a>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1498.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1498.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1463.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1463.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1468.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1468.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1477.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1477.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1479.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1479.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1585.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1585.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1589.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1589.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1500.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1500.jpg"/></a>
+                        <p id="img_cell"></p>
+                    </td>
+
+                    <td>
+                        <a rel="pendants_group" href="./site-res/pendants/IMAG1501.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1501.jpg"/></a>
                         <p id="img_cell"></p>
                     </td>
                 </tr>
