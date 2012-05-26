@@ -109,7 +109,7 @@ textarea {
 }
 
 #page {
-  width: 1020px;
+  width: 1030px;
   margin: 0 auto 10px auto;
 }
 
@@ -134,20 +134,23 @@ img#thumb-land {
 }
 
 #content {
-  width: 840px;
+  width: 852px;
   margin: 0;
   padding: 0;
   float: right;
 }
 
-#top_content {
+img#top_content {
   float: top;
+  display: block;
 }
 
-#left_content {
+img#left_content {
   float: left;
+  display: block;
 }
 
-#right_content {
+img#right_content {
   float: right;
+  display: block;
 }
