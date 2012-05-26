@@ -284,11 +284,13 @@ FORMML;
                    customers that provide their own coins or forgo the
                    chain.</p>
 
-               <p id="art_detail">We Accept Cash, Check, Money Order, and Credit Cards (a
-                   Paypal bill will be generated upon request).</p>
-               
-               <p id="art_detail">Worldwide shipping available.  Delivery/Pickup available by
+                <p id="art_detail">We Accept Cash, Check, Money Order, and Credit Cards (a
+                    Paypal bill will be generated upon request).</p>
+
+                <p id="art_detail">Worldwide shipping available.  Delivery/Pickup available by
                    request.</p>
+
+                <p>See much more work and like us at <a href="http://www.facebook.com/soleyinspired">www.facebook.com/soleyinspired</a></p>
 
                 <table>
                 <tr>
