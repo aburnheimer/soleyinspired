@@ -151,3 +151,9 @@ img#left_content {
 img#right_content {
   float: right;
 }
+
+#facebook_like_button {
+  border:none;
+  width:176px;
+  margin-top: 10px
+}
