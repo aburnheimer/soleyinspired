@@ -76,13 +76,13 @@ h1#form_title {
   text-align: center;
 }
 
-table#form_table {
+table {
   margin: 0 auto 0 auto;
-  width: 100%;
+  display: block;
 }
 
-table#info_table {
-  margin: 0 auto 0 auto;
+table#form_table {
+  width: 100%;
 }
 
 td#info_value {
