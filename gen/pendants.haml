@@ -10,7 +10,7 @@
     %meta{:content => "en-US", "http-equiv" => "content-language"}/
     %meta{:content => "text/html;charset=UTF-8", "http-equiv" => "content-type"}/
     %meta{:content => "Thu, 19 Jan 2012 03:51:06 GMT", "http-equiv" => "date"}/
-    %meta{:content => "Thu, 19 Jan 2012 04:05:06 GMT", "http-equiv" => "last-modified"}/
+    %meta{:content => "Wed, 24 Oct 2012 04:45:06 GMT", "http-equiv" => "last-modified"}/
     %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}/
     %script{:type => "text/javascript"}
       $(document).ready(function() {
@@ -20,172 +20,173 @@
       });
   %body
     #page
-      #left_menu
+      #banner
         %a{:href => "index.html"}
-          %img#top_menu_item{:src => "website-button-home.png"}/
-        %a{:href => "pendants.php"}
-          %img#menu_item{:src => "website-button-pendants.png"}/
-        %a{:href => "earrings.html"}
-          %img#menu_item{:src => "website-button-earrings.png"}/
-        %a{:href => "pottery.html"}
-          %img#menu_item{:src => "website-button-pottery.png"}/
-        %a{:href => "http://soleyinspired.etsy.com"}
-          %img#menu_item{:src => "website-button-store.png"}/
-        %a{:href => "aboutme.html"}
-          %img#bottom_menu_item{:src => "website-button-aboutme.png"}/
+          %img.left_content{:src => "website-button-home.png"}/
         %iframe#facebook_like_button{:frameborder => "0", :scrolling => "no", :src => "http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/soleyinspired"}
+      #menu
+        %a{:href => "aboutme.html"}
+          %img.menu_item.left_most{:src => "website-button-aboutme.png"}/
+        %a{:href => "pottery.html"}
+          %img.menu_item{:src => "website-button-pottery.png"}/
+        %a{:href => "earrings.html"}
+          %img.menu_item{:src => "website-button-earrings.png"}/
+        %a{:href => "http://soleyinspired.etsy.com"}
+          %img.menu_item{:src => "website-button-store.png"}/
+        %a{:href => "pendants.php"}
+          %img.menu_item.right_most{:src => "website-button-pendants.png"}/
       #content
         %img#top_label{:src => "Soley-Inspired-pendant.png"}
-          %h1#form_title Request a Quote…
-          %h1#form_title Pricing…
-          %table#info_table
-            %tr
-              %td Mounted Coin Pendant with Chain
-              %td#info_value $16.00
-            %tr
-              %td Drilled Coin Pendant with Chain
-              %td#info_value $18.00
-            %tr
-              %td Hand Wired Coin Pendant with Chain
-              %td#info_value $22.00
-            %tr
-              %td Reversible Coin Pendant with Chain
-              %td#info_value $28.00
-            %tr
-              %td Bezel-set Coin Pendant with Chain
-              %td#info_value $32.00
-          %p#art_detail
-            These are average prices and include a 20" chain in a
-            coordinating finish.  Discounts and/or credits are given to
-            customers that provide their own coins or forgo the
-            chain.
-          %p#art_detail
-            We Accept Cash, Check, Money Order, and Credit Cards (a
-            Paypal bill will be generated upon request).
-          %p#art_detail
-            Worldwide shipping available.  Delivery/Pickup available by
-            request.
-          %p
-            See much more work and like us at
-            %a{:href => "http://www.facebook.com/soleyinspired"} www.facebook.com/soleyinspired
-          %table
-            %tr
-              %td
-                %a{:href => "./site-res/pendants/guam.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-guam.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/guana.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-guana.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/hawaii.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-hawaii.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1395.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1395.jpg"}/
-                %p#img_cell
-            %tr
-              %td
-                %a{:href => "./site-res/pendants/IMAG1398.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1398.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1409.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1409.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1413.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1413.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1593.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1593.jpg"}/
-                %p#img_cell
-            %tr
-              %td
-                %a{:href => "./site-res/pendants/IMAG1610.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1610.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1628.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1628.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1416.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1416.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1550.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1550.jpg"}/
-                %p#img_cell
-            %tr
-              %td
-                %a{:href => "./site-res/pendants/IMAG1418.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1418.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1423.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1423.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1440.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1440.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1441.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1441.jpg"}/
-                %p#img_cell
-            %tr
-              %td
-                %a{:href => "./site-res/pendants/IMAG1447.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1447.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1461.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1461.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1648.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1648.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1498.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1498.jpg"}/
-                %p#img_cell
-            %tr
-              %td
-                %a{:href => "./site-res/pendants/IMAG1463.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1463.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1468.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1468.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1477.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1477.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1479.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1479.jpg"}/
-                %p#img_cell
-            %tr
-              %td
-                %a{:href => "./site-res/pendants/IMAG1585.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1585.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1589.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1589.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1500.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1500.jpg"}/
-                %p#img_cell
-              %td
-                %a{:href => "./site-res/pendants/IMAG1501.jpg", :rel => "pendants_group"}
-                  %img#thumb-land{:src => "./site-res/pendants/t-IMAG1501.jpg"}/
-                %p#img_cell
+        %h1#form_title Request a Quote&hellip;
+        %h1#form_title Pricing&hellip;
+        %table#info_table
+          %tr
+            %td Mounted Coin Pendant with Chain
+            %td#info_value $16.00
+          %tr
+            %td Drilled Coin Pendant with Chain
+            %td#info_value $18.00
+          %tr
+            %td Hand Wired Coin Pendant with Chain
+            %td#info_value $22.00
+          %tr
+            %td Reversible Coin Pendant with Chain
+            %td#info_value $28.00
+          %tr
+            %td Bezel-set Coin Pendant with Chain
+            %td#info_value $32.00
+        %p#art_detail
+          These are average prices and include a 20" chain in a
+          coordinating finish.  Discounts and/or credits are given to
+          customers that provide their own coins or forgo the
+          chain.
+        %p#art_detail
+          We Accept Cash, Check, Money Order, and Credit Cards (a
+          Paypal bill will be generated upon request).
+        %p#art_detail
+          Worldwide shipping available.  Delivery/Pickup available by
+          request.
+        %p
+          See much more work and like us at
+          %a{:href => "http://www.facebook.com/soleyinspired"} www.facebook.com/soleyinspired
+        %table
+          %tr
+            %td
+              %a{:href => "./site-res/pendants/guam.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-guam.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/guana.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-guana.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/hawaii.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-hawaii.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1395.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1395.jpg"}/
+              %p#img_cell
+          %tr
+            %td
+              %a{:href => "./site-res/pendants/IMAG1398.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1398.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1409.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1409.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1413.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1413.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1593.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1593.jpg"}/
+              %p#img_cell
+          %tr
+            %td
+              %a{:href => "./site-res/pendants/IMAG1610.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1610.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1628.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1628.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1416.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1416.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1550.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1550.jpg"}/
+              %p#img_cell
+          %tr
+            %td
+              %a{:href => "./site-res/pendants/IMAG1418.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1418.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1423.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1423.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1440.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1440.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1441.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1441.jpg"}/
+              %p#img_cell
+          %tr
+            %td
+              %a{:href => "./site-res/pendants/IMAG1447.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1447.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1461.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1461.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1648.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1648.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1498.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1498.jpg"}/
+              %p#img_cell
+          %tr
+            %td
+              %a{:href => "./site-res/pendants/IMAG1463.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1463.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1468.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1468.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1477.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1477.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1479.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1479.jpg"}/
+              %p#img_cell
+          %tr
+            %td
+              %a{:href => "./site-res/pendants/IMAG1585.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1585.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1589.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1589.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1500.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1500.jpg"}/
+              %p#img_cell
+            %td
+              %a{:href => "./site-res/pendants/IMAG1501.jpg", :rel => "pendants_group"}
+                %img#thumb-land{:src => "./site-res/pendants/t-IMAG1501.jpg"}/
+              %p#img_cell
 
