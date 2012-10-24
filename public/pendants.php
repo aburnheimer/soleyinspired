@@ -1,43 +1,52 @@
 <html>
-    <head>
-        <title>Soley Inspired: Handcrafted Jewelry & Decor | Pendants</title>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-        <script>
-            !window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
-        </script>
-        <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-        <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-        <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-        <meta http-equiv="content-language" content="en-US" />
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <meta http-equiv="date" content="Thu, 19 Jan 2012 03:51:06 GMT" />
-        <meta http-equiv="last-modified" content="Thu, 19 Jan 2012 04:03:06 GMT" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <script type="text/javascript">
-            $(document).ready(function() {
-
-                $("a[rel=pendants_group]").fancybox({
-                    'titleShow'     : false
-                });
-            });
-        </script>
-    </head>
-    <body>
-        <div id="page">
-            <div id="left_menu">
-                <a href="index.html"><img id="top_menu_item" src="website-button-home.png"></a>
-                <a href="pendants.php"><img id="menu_item" src="website-button-pendants.png"></a>
-                <a href="earrings.html"><img id="menu_item" src="website-button-earrings.png"></a>
-                <a href="pottery.html"><img id="menu_item" src="website-button-pottery.png"></a>
-                <a href="http://soleyinspired.etsy.com"><img id="menu_item" src="website-button-store.png"></a>
-                <a href="aboutme.html"><img id="bottom_menu_item" src="website-button-aboutme.png"></a>
-                <iframe id="facebook_like_button" src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/soleyinspired"
-                 scrolling="no" frameborder="0"></iframe>
-            </div>
-            <div id="content">
-                <img id="top_label" src="Soley-Inspired-pendant.png">
-
-                <h1 id='form_title'>Request a Quote&hellip;</h1>
+  <head>
+    <title>Soley Inspired: Handcrafted Jewelry &amp; Decor | Pendants</title>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js' type='text/javascript'></script>
+    <script>
+      !window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+    </script>
+    <script src='./fancybox/jquery.mousewheel-3.0.4.pack.js' type='text/javascript'></script>
+    <script src='./fancybox/jquery.fancybox-1.3.4.pack.js' type='text/javascript'></script>
+    <link href='./fancybox/jquery.fancybox-1.3.4.css' media='screen' rel='stylesheet' type='text/css' />
+    <meta content='en-US' http-equiv='content-language' />
+    <meta content='text/html;charset=UTF-8' http-equiv='content-type' />
+    <meta content='Thu, 19 Jan 2012 03:51:06 GMT' http-equiv='date' />
+    <meta content='Thu, 19 Jan 2012 04:05:06 GMT' http-equiv='last-modified' />
+    <link href='style.css' rel='stylesheet' type='text/css' />
+    <script type='text/javascript'>
+      $(document).ready(function() {
+      $("a[rel=pendants_group]").fancybox({
+      'titleShow'     : false
+      });
+      });
+    </script>
+  </head>
+  <body>
+    <div id='page'>
+      <div id='left_menu'>
+        <a href='index.html'>
+          <img id='top_menu_item' src='website-button-home.png' />
+        </a>
+        <a href='pendants.php'>
+          <img id='menu_item' src='website-button-pendants.png' />
+        </a>
+        <a href='earrings.html'>
+          <img id='menu_item' src='website-button-earrings.png' />
+        </a>
+        <a href='pottery.html'>
+          <img id='menu_item' src='website-button-pottery.png' />
+        </a>
+        <a href='http://soleyinspired.etsy.com'>
+          <img id='menu_item' src='website-button-store.png' />
+        </a>
+        <a href='aboutme.html'>
+          <img id='bottom_menu_item' src='website-button-aboutme.png' />
+        </a>
+        <iframe frameborder='0' id='facebook_like_button' scrolling='no' src='http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/soleyinspired'></iframe>
+      </div>
+      <div id='content'>
+        <img id='top_label' src='Soley-Inspired-pendant.png'>
+          <h1 id='form_title'>Request a Quote…</h1>
 <?php
 
 // Taken from http://www.w3schools.com/php/php_mail.asp
@@ -252,205 +261,233 @@ else {
 FORMML;
 }
 ?>
-
-                <h1 id="form_title">Pricing&hellip;</h1>
-                <table id="info_table">
-                    <tr>
-                        <td>Mounted Coin Pendant with Chain</td>
-                        <td id="info_value">&#36;16.00</td>
-                    </tr>
-
-                    <tr>
-                        <td>Drilled Coin Pendant with Chain</td>
-                        <td id="info_value">&#36;18.00</td>
-                    </tr>
-
-                    <tr>
-                        <td>Hand Wired Coin Pendant with Chain</td>
-                        <td id="info_value">&#36;22.00</td>
-                    </tr>
-
-                    <tr>
-                        <td>Reversible Coin Pendant with Chain</td>
-                        <td id="info_value">&#36;28.00</td>
-                    </tr>
-
-                    <tr>
-                        <td>Bezel-set Coin Pendant with Chain</td>
-                        <td id="info_value">&#36;32.00</td>
-                    </tr>
-                </table>
-                
-                <p id="art_detail">These are average prices and include a 20" chain in a
-                   coordinating finish.  Discounts and/or credits are given to
-                   customers that provide their own coins or forgo the
-                   chain.</p>
-
-                <p id="art_detail">We Accept Cash, Check, Money Order, and Credit Cards (a
-                    Paypal bill will be generated upon request).</p>
-
-                <p id="art_detail">Worldwide shipping available.  Delivery/Pickup available by
-                   request.</p>
-
-                <p>See much more work and like us at <a href="http://www.facebook.com/soleyinspired">www.facebook.com/soleyinspired</a></p>
-
-                <table>
-                <tr>
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/guam.jpg"><img id="thumb-land" src="./site-res/pendants/t-guam.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/guana.jpg"><img id="thumb-land" src="./site-res/pendants/t-guana.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/hawaii.jpg"><img id="thumb-land" src="./site-res/pendants/t-hawaii.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1395.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1395.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1398.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1398.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1409.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1409.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1413.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1413.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1593.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1593.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                         <a rel="pendants_group" href="./site-res/pendants/IMAG1610.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1610.jpg"/></a>
-                         <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1628.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1628.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1416.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1416.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1550.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1550.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1418.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1418.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1423.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1423.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1440.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1440.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1441.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1441.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1447.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1447.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1461.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1461.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1648.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1648.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1498.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1498.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1463.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1463.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1468.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1468.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1477.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1477.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1479.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1479.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1585.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1585.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1589.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1589.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1500.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1500.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-
-                    <td>
-                        <a rel="pendants_group" href="./site-res/pendants/IMAG1501.jpg"><img id="thumb-land" src="./site-res/pendants/t-IMAG1501.jpg"/></a>
-                        <p id="img_cell"></p>
-                    </td>
-                </tr>
-                </table>
-            </div>
-        </div>
-    </body>
+          <h1 id='form_title'>Pricing…</h1>
+          <table id='info_table'>
+            <tr>
+              <td>Mounted Coin Pendant with Chain</td>
+              <td id='info_value'>$16.00</td>
+            </tr>
+            <tr>
+              <td>Drilled Coin Pendant with Chain</td>
+              <td id='info_value'>$18.00</td>
+            </tr>
+            <tr>
+              <td>Hand Wired Coin Pendant with Chain</td>
+              <td id='info_value'>$22.00</td>
+            </tr>
+            <tr>
+              <td>Reversible Coin Pendant with Chain</td>
+              <td id='info_value'>$28.00</td>
+            </tr>
+            <tr>
+              <td>Bezel-set Coin Pendant with Chain</td>
+              <td id='info_value'>$32.00</td>
+            </tr>
+          </table>
+          <p id='art_detail'>
+            These are average prices and include a 20" chain in a
+            coordinating finish.  Discounts and/or credits are given to
+            customers that provide their own coins or forgo the
+            chain.
+          </p>
+          <p id='art_detail'>
+            We Accept Cash, Check, Money Order, and Credit Cards (a
+            Paypal bill will be generated upon request).
+          </p>
+          <p id='art_detail'>
+            Worldwide shipping available.  Delivery/Pickup available by
+            request.
+          </p>
+          <p>
+            See much more work and like us at
+            <a href='http://www.facebook.com/soleyinspired'>www.facebook.com/soleyinspired</a>
+          </p>
+          <table>
+            <tr>
+              <td>
+                <a href='./site-res/pendants/guam.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-guam.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/guana.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-guana.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/hawaii.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-hawaii.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1395.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1395.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='./site-res/pendants/IMAG1398.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1398.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1409.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1409.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1413.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1413.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1593.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1593.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='./site-res/pendants/IMAG1610.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1610.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1628.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1628.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1416.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1416.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1550.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1550.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='./site-res/pendants/IMAG1418.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1418.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1423.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1423.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1440.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1440.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1441.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1441.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='./site-res/pendants/IMAG1447.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1447.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1461.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1461.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1648.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1648.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1498.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1498.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='./site-res/pendants/IMAG1463.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1463.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1468.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1468.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1477.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1477.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1479.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1479.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='./site-res/pendants/IMAG1585.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1585.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1589.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1589.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1500.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1500.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+              <td>
+                <a href='./site-res/pendants/IMAG1501.jpg' rel='pendants_group'>
+                  <img id='thumb-land' src='./site-res/pendants/t-IMAG1501.jpg' />
+                </a>
+                <p id='img_cell'></p>
+              </td>
+            </tr>
+          </table>
+        </img>
+      </div>
+    </div>
+  </body>
 </html>
-<!-- vim:set ai et sw=4 sts=4 ts=4 nowrap: -->
