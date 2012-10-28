@@ -24,17 +24,18 @@
         %a{:href => "index.html"}
           %img.left_content{:src => "website-button-home.png"}/
         %iframe#facebook_like_button{:frameborder => "0", :scrolling => "no", :src => "http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/soleyinspired"}
+      %br{:clear => "both"}
       #menu
-        %a{:href => "aboutme.html"}
-          %img.menu_item.left_most{:src => "website-button-aboutme.png"}/
-        %a{:href => "pottery.html"}
-          %img.menu_item{:src => "website-button-pottery.png"}/
-        %a{:href => "earrings.html"}
-          %img.menu_item{:src => "website-button-earrings.png"}/
-        %a{:href => "http://soleyinspired.etsy.com"}
-          %img.menu_item{:src => "website-button-store.png"}/
-        %a{:href => "pendants.php"}
-          %img.menu_item.right_most{:src => "website-button-pendants.png"}/
+        %a.menu_item_link{:href => "aboutme.html"}
+          %span.menu_item.left_most About Me
+        %a.menu_item_link{:href => "pottery.html"}
+          %span.menu_item Pottery
+        %a.menu_item_link{:href => "earrings.html"}
+          %span.menu_item Jewelry
+        %a.menu_item_link{:href => "http://soleyinspired.etsy.com"}
+          %span.menu_item Store
+        %a.menu_item_link{:href => "pendants.php"}
+          %span.menu_item.right_most Contact
       #content
         %p
           See much more work and like us at

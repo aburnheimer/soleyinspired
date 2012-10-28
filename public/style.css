@@ -1,6 +1,7 @@
 #page {
   width: 1018px;
   margin: 0 auto 10px auto;
+  border-style: solid;
 }
 
 #banner {
@@ -21,13 +22,42 @@ img {
   border: 0px;
 }
 
-img.left_most {
-  margin-left: 44px;
+#menu {
+  text-align: right;
 }
 
-img.right_most {
-  margin-right: 10px;
+.menu_item {
+  font-family: Webdings,fantasy;
+  font-size: x-large;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+.right_most {
+  margin-right: 30px;
+}
+
+a.menu_item_link:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color:            black;
+} 
+a.menu_item_link:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            black;
+} 
+a.menu_item_link:hover   {
+  /* Applies to links under the pointer */
+  /* text-decoration:  underline overline; */
+  text-decoration:  none;
+  color:            black;
+} 
+a.menu_item_link:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  color:            black;
+} 
 
 img#top_label {
   margin-left: auto;
@@ -126,7 +156,7 @@ img#thumb-land {
 
 #content {
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 
 img.top_content {
